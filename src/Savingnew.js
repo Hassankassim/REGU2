@@ -34,32 +34,16 @@ function SavingNew() {
     <>
     <Navbar />
     <h1 className='center margint' >Login</h1>
-    <div className="feedback1">
-          <div className="m-3 text-success">{data && <h5>{data}</h5>}</div>
-          <div className="m-3 text-warning">
-            {loading && (
-              <div id="page">
-                <div id="container">
-                  <div id="ring"></div>
-                  <div id="ring"></div>
-
-                  <div id="ring"></div>
-                  <div id="ring"></div>
-                  <div id="h3">Saving..!</div>
-                </div>
-              </div>
-            )}
-          </div>
-          </div>
+   
     <div className='center margint'>
         
     <div className="savingnew-container">
       <div className="savingnew-heading">login</div>
       <form onSubmit={handleSubmit} className="savingnew-form">
-        <input required className="savingnew-input" type="text" name="name" id="text" placeholder="Your Name" />
-        <input required className="savingnew-input" type="text" name="phone" id="password" placeholder="Password" />
+        <input  className="savingnew-input" type="text" name="name" id="text" placeholder="Your Name" />
+        <input className="savingnew-input" type="text" name="phone" id="password" placeholder="Password" />
         <span className="savingnew-forgot-password"><a href="/dashboard">Call the Admin?</a></span>
-        <input onSubmit={handleSubmit} className="savingnew-login-button" type="submit" value="Login" />
+        <a href='/dashboard'><input  className="savingnew-login-button" type="submit" value="Login" /></a>
       </form>
       <div className="savingnew-social-account-container">
         <span className="savingnew-title">Call the Admin</span>
@@ -81,7 +65,7 @@ function SavingNew() {
           </button>
         </div>
       </div>
-      <span className="savingnew-agreement"><a href="#">Learn user licence agreement</a></span>
+      <span className="savingnew-agreement"><a href="/Dashboard">Learn user licence agreement</a></span>
     </div>
     </div>
     </>
