@@ -2,7 +2,7 @@ import React from 'react'
 import Navbaruser from '../components/navbar/Navbaruser'
 import Footer from '../components/footer/footer'
 import SarufiChatbox from "react-sarufi-chatbox"
-import map from '../assets/img/vcard icon2.png'
+import map from '../assets/img/ROADMAP2.png'
 // usage
 
 function Roadmap() {
