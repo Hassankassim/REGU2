@@ -70,7 +70,9 @@
   .text-user .p-user {
     font-family: 'Lucida Sans', sans-serif;
     color: #999999;
-    font-size: 13px;
+  
+    margin-bottom: 12px;
+
   }
   
   .icon-box-user .span-user {

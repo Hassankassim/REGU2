@@ -14,10 +14,11 @@ const CardUser = ({ title, image }) => {
      
       <div className="text-user">
         <p className="h3-user">{title}</p>
-        <div className="p-user">
-          {/* Displaying the image */}
-          <img width={'100px'} src={image} />
-        </div>
+        
+        <p className="p-user">
+        <img width={'50px'} src={image} />
+          
+        </p>
       </div>
     </div>
   );
