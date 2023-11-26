@@ -10,6 +10,10 @@ import CardWork from "./components/cards/cardwork";
 import Count from "./counts/count";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/style.css'
+import SarufiChatbox from "react-sarufi-chatbox"
+  
+// usage
+
 function Home() {
   return (
     <>
@@ -21,6 +25,7 @@ function Home() {
        <div className="margint">
         {/* how it works page */}
       <WhyUs />
+      <SarufiChatbox botId={2517} />
       </div>
       {/* cards */}
      <Cardlayout />

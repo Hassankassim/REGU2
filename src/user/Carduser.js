@@ -13,11 +13,10 @@ const CardUser = ({ title, image }) => {
       </div>
      
       <div className="text-user">
-        <p className="h3-user">{title}</p>
+        <p className="h3-user"> <img width={'50px'} src={image} /></p>
         
         <p className="p-user">
-        <img width={'50px'} src={image} />
-          
+      
         </p>
       </div>
     </div>
