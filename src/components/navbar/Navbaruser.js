@@ -1,13 +1,13 @@
 import React from 'react';
 import ProgressBar from '../../user/Progress';
-
+import profile from '../../assets/img/profile.png'
 const Navbaruser = () => {
   return (
     <>
     <header id="header1" className="fixed-top">
       <div className="container d-flex align-items-center">
         <h4 className="logo me-auto">
-          <a href="/">
+          <a href="/dashboard">
             <span>
              Hii, Edgar!
             </span>
@@ -16,8 +16,8 @@ const Navbaruser = () => {
          
         </h4>
 
-        <a href="#" className="get-started-btnuser">
-         
+        <a href="#" className="">
+         <img className='get-started-btnuserimage' src={profile} />
         </a>
         
       </div>

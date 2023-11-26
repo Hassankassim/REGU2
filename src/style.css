@@ -5,6 +5,8 @@ body {
 }
 .red{
   color: red;
+  text-align: center;
+  margin: 12px;
 }
 #namep{
   margin-top: 22px;
@@ -215,6 +217,21 @@ h6 {
 }
 .get-started-btnuser {
   margin-left: 22px;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #0980f7;
+ width: 60px;
+ height: 60px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #0099ff;
+
+}
+
+.get-started-btnuserimage {
+  margin-left: 12px;
   color: #fff;
   border-radius: 50%;
   border: 2px solid #0980f7;
@@ -2070,4 +2087,54 @@ section {
   to {
     transform: rotateX(70deg) rotateZ(630deg);
   }
+}
+/* option  */
+.option-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.option-card.option-red {
+  background-color: #f43f5e;
+}
+
+.option-card.option-blue {
+  background-color: #3b82f6;
+}
+
+.option-card.option-green {
+  background-color: #22c55e;
+}
+
+.option-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.option-card p.option-tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.option-card p.option-second-text {
+  font-size: .7em;
+}
+
+.option-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.option-cards:hover > .option-card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
 }
