@@ -30,9 +30,9 @@ function Generate() {
         <div className="button-container">
           <div className="send-button">Register</div>
           <div className="reset-button-container">
-            <div id="reset-btn" className="reset-button">
+            <a href='/Savingnew'><div id="reset-btn" className="reset-button">
               Login
-            </div>
+            </div></a>
           </div>
         </div>
       </div>

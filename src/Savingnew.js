@@ -59,7 +59,7 @@ function SavingNew() {
         <input required className="savingnew-input" type="text" name="name" id="text" placeholder="Your Name" />
         <input required className="savingnew-input" type="text" name="phone" id="password" placeholder="Password" />
         <span className="savingnew-forgot-password"><a href="#">Call the Admin?</a></span>
-        <input onSubmit={handleSubmit} className="savingnew-login-button" type="submit" value="Save Number" />
+        <input onSubmit={handleSubmit} className="savingnew-login-button" type="submit" value="Login" />
       </form>
       <div className="savingnew-social-account-container">
         <span className="savingnew-title">Call the Admin</span>
