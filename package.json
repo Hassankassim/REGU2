@@ -15,6 +15,7 @@
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
+    "react-sarufi-chatbox": "^0.4.7",
     "react-scripts": "5.0.1",
     "swiper": "^11.0.3",
     "three": "^0.155.0",
