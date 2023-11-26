@@ -16,7 +16,7 @@ function Dashboard() {
         <h4>Key Regulatory Areas Impacting Startups in Tanzania</h4>
       </div>
       <div className='center'> <Option /></div>
-<p className='center margint'><Button name ="Apply Embeju" /></p>
+<a href='/'><p className='center margint'><Button name ="Apply Embeju" /></p></a>
     </div>
     <footer />
     </>
