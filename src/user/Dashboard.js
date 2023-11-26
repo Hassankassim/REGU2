@@ -12,7 +12,7 @@ function Dashboard() {
       <Count />
         
       <div className='center margint'>
-        <h4>Updates and allerts</h4>
+        <h4>Key Regulatory Areas Impacting Startups in Tanzania</h4>
       </div>
       <div className='center'> <Option /></div>
     </div>
