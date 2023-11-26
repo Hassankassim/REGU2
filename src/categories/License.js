@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from '../components/navbar/navbar'
+import Navbar from '../components/navbar/Navbaruser'
 import Footer from '../components/footer/footer'
 function License() {
   return (
     <>
     <Navbar />
-    <div>License</div>
+    <h4>Taxation</h4>
+    <div className='margintt '> Welcom License</div>
     <Footer />
     </>
   )

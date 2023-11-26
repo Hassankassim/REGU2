@@ -19,7 +19,7 @@ function Count() {
 
           <div className="col-lg-3 col-6 text-center">
             <span className="purecounter">
-              <Carduser image={image2} />
+            <a href='/license'>  <Carduser image={image2} /></a>
             </span>
             <p>Tax/License</p>
           </div>
