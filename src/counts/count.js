@@ -12,7 +12,7 @@ function Count() {
         <div className="row counters">
           <div className="col-lg-3 col-6 text-center">
             <span className="purecounter">
-              <Carduser image={image1}  />
+              <a href='/Roadmap'><Carduser image={image1}  /></a>
             </span>
             <p>Roadmap</p>
           </div>
