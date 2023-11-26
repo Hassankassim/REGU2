@@ -11,7 +11,7 @@ function Sarufi() {
     <Navbaruser />
     <SarufiChatbox botId={2517} />
     <div className='center margint'>Sarufi</div>
-    <h4 className='margintt'>Welcome to our chatbot</h4>
+    <h4 className='margintt'>Welcome to our Economybot</h4>
    <div className='center'> <img  src={chat}/></div>
     <p className="text red">Click Below to Economy Chatbot</p>
     <Footer />
